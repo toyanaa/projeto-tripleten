@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import ploty.express as px
+import ploty_express as px
 
 # Especifique o caminho do arquivo CSV
 caminho_arquivo = r'C:\Users\regin\OneDrive\Desktop\projeto-tripleten\vehicles.csv'
