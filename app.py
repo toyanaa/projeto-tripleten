@@ -11,8 +11,6 @@ car_data = pd.read_csv(caminho_arquivo, delimiter=',') # lendo os dados
 # Titulo do meu aplicativo web 
 st.header('Meu primeiro aplicativo pela web')
 
-print()
-
 # criar um botão
 hist_button = st.button('Criar histograma') 
      
@@ -26,8 +24,6 @@ if hist_button: # se o botão for clicado
          # exibir um gráfico Plotly interativo
          st.plotly_chart(fig, use_container_width=True)
 
-print()
-
 # criar um botão
 hist_button1 = st.button('Criar um grafico de dispersão') 
 
@@ -40,8 +36,6 @@ if hist_button1: # se o botão for clicado
      
          # exibir um gráfico Plotly interativo
          st.plotly_chart(fig1, use_container_width=True)
-
-print()
 
 # criar uma caixa de seleção
 build_histogram = st.checkbox('Criar um histograma')
