@@ -1,6 +1,6 @@
 # projeto-tripleten
 
-Este aplicativo vai deselvolver Três tipos de gráficos a partir de um aplicativo web, sendo os gráficos:
+Este aplicativo vai desenlvolver Três tipos de gráficos a partir de um aplicativo web, sendo os gráficos:
 
 Dois Histogramas (a partir de um botão e uma caixa de seleção)
 
